@@ -1,0 +1,16 @@
+        /*
+            px => tamamanho fixo
+            % => tamanho relativo
+            em => tamanho relativo ao container pai
+            */
+            body {
+                font-size: 30px;
+            }
+            .texto {
+                font-size: 2em;
+            }
+    
+            .texto2 {
+                font-size: 1,5em;
+            }
+    
