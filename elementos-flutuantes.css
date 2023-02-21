@@ -1,0 +1,28 @@
+/*elementos-flutuantes
+*/
+
+.conteudo {
+    background: blue;
+    border: 5px groove gray;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    float: right;
+}
+
+/*.conteudo-quatro {
+    background: red;
+    border: 3px groove gray;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}*/
+
+.clear {
+    clear: both;
+}
+
+#principal {
+    background: green;
+    border: 5px groove red;
+}

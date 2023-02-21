@@ -1,0 +1,22 @@
+a {
+    padding: 8px 10px;
+    text-decoration: none; /*remove o under-line ______ */
+}
+/*importante seguir a ordem*/
+a:link { /*Links não Visitatos*/
+    color: #c0c0c0;}
+
+a:visited { /*Links Visitados*/
+    color: #c0c0c0;
+}
+
+/*a:link, a:visited {} = pode ser utilizado tbm dessa forma*/
+
+a:hover { /*Link Hover, passa o cursor sobre o link*/
+    background: cyan;
+    color: red;    
+}
+
+a:active { /*Link Hover, passa o cursor sobre o link*/
+    color: black;
+}

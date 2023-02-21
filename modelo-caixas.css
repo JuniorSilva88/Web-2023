@@ -1,0 +1,40 @@
+/* Medelo de caixa
+
+
+.conteudo {
+    border: solid red;
+    /*padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;*/
+
+    /*padding: 20px 15px 20px 15px;*/
+
+    /*padding: 20px 5px;
+    padding: 20px;
+    
+   /* margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    margin: 10px;
+
+    width: 150px;
+}
+
+.conteudo2 {
+    border: solid red;
+    margin: 5px;
+    width: 150px
+}*/
+
+#noticia {
+    background: #f9f9f9;
+    border: 10px groove gray;
+    padding: 10px;
+}
+
+h2 {
+    margin: 0px;
+}

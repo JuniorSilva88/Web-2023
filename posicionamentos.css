@@ -1,0 +1,24 @@
+body {
+    background: #007fc7;
+}
+
+#container{
+    background: #FFF;
+    width: 800px;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+p {
+    width: 300px;
+}
+
+.relative {
+    border: 1px solid black;
+    position: relative;
+    /* top, right, bottom e left */
+    /*top: 0px;
+    left: 0px;
+    right: 20px;*/
+    bottom: 0px;
+}

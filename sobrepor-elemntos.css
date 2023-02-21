@@ -1,0 +1,31 @@
+
+.conteudo1 {
+    border: 2px solid red;
+    background: orange;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 3;
+}
+
+.conteudo2 {
+    border: 2px solid green;
+    background: blue;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    z-index: 1; /*contexto de empilhamento*/
+}
+
+.conteudo3 {
+    border: 2px solid black;
+    background: cyan;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 160px;
+    left: 160px;
+    z-index: 1;
+}
