@@ -1,0 +1,73 @@
+/*Seletor universal => Aplica-se em todos os elementos no documento
+EX: *{} Seleciona todos os elementos da página */
+* {
+    background-color: beige;
+
+}
+
+/*Seletor de texto => Seleciona elementos pelo tipo H1, h2, h3 {}
+Seleciona os elementos EX: <h1>, <h2> e <h3> */
+
+h1 {
+    font-style: italic;
+    color: red;
+}
+
+/* Seletor de classe => Seleciona um elemento cujo atributo class tem o valor
+especificado depois do ponto 
+EX: .verde{} Seleciona qualquer elemento cujo atributo class tem o valor “verde”
+Ex2: p.verde{} Seleciona somente elemento <p> cujo atributo class tem o valor “verde” */
+
+.verde{
+    color: green;
+} 
+
+p.verde{
+    color: green;
+}
+
+/* Seletor de ID => Seleciona um elemento cujo atributo id tem o valor especificado após o símbolo
+de cerquilha ou jogo da velha
+EX: #cabecalho{}
+Seleciona o elemento cujo atributo id tem o valor “cabecalho”
+ */
+
+ #cabecalho{
+    border: dashed tomato;
+ }
+
+ /* Seletor de filho => Seleciona um elemento que é filho direto de outro
+Ex: li>a {} Seleciona quaisquer elementos <a> que são filhos de um elemento <li>
+(mas não outros elementos a na página) */ 
+
+li>a {
+    color: magenta;
+}
+
+/* Seletor de descendente => Seleciona um elemento que é descendente de outro
+elemento especificado (e não apenas filho direto desse elemento)
+Ex: p a {} Seleciona quaisquer elementos <a> que residem dentro de um elemento
+<p>, mesmo e houver outros elementos aninhados entre eles. */
+
+p a {
+    color: aquamarine;
+    background: black;
+}
+
+/* Seletor de irmão adjacente => Seleciona um elemento que é o irmão próximo de outro
+EX: h3+p {} Seleciona o primeiro elemento <p> depois de qualquer elemento <h1>
+(mas não outros elementos <p>) */
+
+h3+p {
+    color: blue;
+}
+
+/* Seletor de irmão geral => Seleciona um elemento que é um irmão de outro,
+embora ele não precise ser o elemento diretamente precedente.
+EX: h1~p {} Se houvesse dois elementos <p> que fossem irmãos de um elemento <h1>,
+essa regra se aplicaria ao dois */
+
+h4~p {
+    color: black;
+    background: chartreuse;
+}
