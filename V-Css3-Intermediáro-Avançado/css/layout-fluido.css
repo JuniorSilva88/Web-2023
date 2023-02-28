@@ -1,0 +1,63 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #f2f2f2;
+}
+
+#countainer {
+    width: 85%; /* 720px = 100%*/
+    margin: 0 auto;
+    background: #fff;
+    min-width: 720px;
+}
+
+#marca{
+    height: 100px;
+    background: #9e9e9e;
+    text-align: center;
+    line-height: 100px;
+}
+
+#conteudo {
+    width: 74%; /*520px = 75%*/
+    float: right;
+}
+#conteudo-1 {
+    width: 63%; /* 320px = 64%*/
+    float: left;
+}
+
+#conteudo-2 {
+    width: 34%; /*180px = 36%*/
+    float: right;
+    background: #d1d1d1;
+}
+
+#conteudo-2 h1,
+#conteudo-2 h2,
+#conteudo-2 h3, 
+#conteudo-2 p {
+    padding-left: 20px;
+    padding-right: 20px;
+} 
+
+#navegacao {
+    width: 24%; /*180px = 25%*/
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #d1d1d1;
+}
+
+#navegacao ul {
+    list-style: none;
+}
+
+#navegacao li a {
+    text-decoration: none;
+}
+
+#rodape {
+    clear: both;
+    background: #c4c4c4;
+    padding: 5px;
+}
