@@ -1,0 +1,38 @@
+/*Estilizando-Formularios*/
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+fieldset {
+    padding: 1em;
+    margin: 1em 0;
+    border: 1px solid red;
+    background: #f8f8f8;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input {
+    width: 20em;
+}
+
+textarea {
+    width: 20em;
+    right: 10em;
+}
+
+input.radio, input.checbox, input.submit {
+    width: auto;
+
+}
+.radio {
+    margin-right: 1em;
+}
