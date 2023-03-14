@@ -1,0 +1,34 @@
+/*Fontes Customizadas*/
+
+
+/*Definindo a fonte*/
+@font-face {
+    font-family: "Ancient";
+    src: url("../fontes/Ancient-Medium.woff");
+}
+
+@font-face {
+    font-family: "Bring";
+    src: url("../fontes/BringHeart.woff");
+}
+
+@font-face {
+    font-family: "Madelina";
+    src: url("../fontes/MadelinaScript.woff");
+}
+
+/*Utilizando a fonte*/
+h1{
+    font-size: 4em;
+    font-family: "Ancient";
+}
+
+h2{
+    font-size: 4em;
+    font-family: "Bring";
+}
+
+h3{
+    font-size: 4em;
+    font-family: "Madelina";
+}
