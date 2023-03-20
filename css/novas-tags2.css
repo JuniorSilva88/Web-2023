@@ -10,6 +10,23 @@ nav {
     padding: 10px;
 }
 
+article {
+    margin-top: 2px;
+    background: burlywood;
+    padding: 10px;
+}
+
+section {
+    margin-top: 2px;
+    border: 1px dotted #ffff;
+}
+
+aside {
+    margin-top: 2px;
+    border: 1px dotted black;
+    background: cyan;
+}
+
 footer {
     margin-top: 2px;
     background: yellow;
