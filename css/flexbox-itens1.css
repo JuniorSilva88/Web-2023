@@ -1,0 +1,61 @@
+#conteudo {
+    background: #dcdcdc;
+    height: 600px;
+    display: flex;
+
+    /*row, row-reverse / column, column-reverse
+    flex-direction: row;
+    
+    *nowrap, wrap, wrap-reverse,
+    inherit, initial, unset
+    flex-wrap: nowrap;
+
+    flex-start, flex-end, center, 
+    space-between, space-around, space-evenly
+    justify-content: space-evenly;
+
+    stretch, center, flex-start, flex-end, 
+    baseline
+    align-items: baseline;*/
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background: white;
+    border: 1px solid gray ;
+
+    /*define a proporção de espaço ocupado
+    por um item*/
+    flex-grow: 0;
+
+}
+
+/*.orden1 {
+    order: 1;
+}
+
+.orden2 {
+    order: 2;
+}
+
+.orden3 {
+    order: 3;
+}
+
+.orden4 {
+    order: 4;
+}
+
+.orden {
+    order: -1;
+}*/
+
+.item1 {
+    flex-grow: 1;
+}
+
+.itenm2 {
+    flex-grow: 2;
+}
