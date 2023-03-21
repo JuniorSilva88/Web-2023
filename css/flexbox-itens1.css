@@ -20,16 +20,20 @@
 }
 
 .item {
-    width: 100px;
+    /*width: 100px;*/
     height: 100px;
     margin: 10px;
     background: white;
     border: 1px solid gray ;
 
-    /*define a proporção de espaço ocupado
-    por um item*/
+    /*define a proporção de espaço ocupado por um item*/
     flex-grow: 0;
 
+     /*define a proporção de redução do tamanho do item*/
+    flex-shrink: 1;
+
+    /*define que o tamanho inicial do flex itenm antes da distribuição de espaço restante*/
+    flex-basis: 100px;
 }
 
 /*.orden1 {
@@ -53,9 +57,11 @@
 }*/
 
 .item1 {
-    flex-grow: 1;
+    /*flex-grow: 1;
+    flex-shrink: 1;*/
 }
 
 .itenm2 {
-    flex-grow: 2;
+    /*flex-grow: 2;
+    flex-shrink: 5;*/
 }
